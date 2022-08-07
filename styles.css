@@ -1,0 +1,36 @@
+body {
+    margin: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:#c5c9a4 ;
+    color: #222716;
+    border-left: 6px solid #222716;
+    border-bottom: 6px  solid #222716;
+        
+    
+}
+.card:hover{
+    background: #519e8a;
+    border-bottom: 6px solid #476a6f;
+    border-left:6px solid #476a6f;
+    color:#c5c9a4;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+
+
+    
